@@ -1,0 +1,34 @@
+= Performance Indicator calculation for periodic walking motions
+
+image::https://img.shields.io/badge/License-BSD%202--Clause-blue.svg[link=https://opensource.org/licenses/BSD-2-Clause]
+Copyright Felix Aller 2022
+
+== Purpose
+Script to generate the data and plots for the STS-Transition Benchmark performed on REEM-C.
+Tested on Python 3.8.
+
+Folder structure refers to the following experiments:
+'415_104': 'P1: 100%'
+'436_104': 'P1: 105%'
+'457_104': 'P1: 110%'
+'477_104': 'P1: 115%'
+'498_104': 'P2: 25%'
+'498_125': 'P2: 30%'
+'498_145': 'P2: 35%'
+'498_166': 'P2: 40%'
+
+== Acknowledgements
+[cols="^.^,.^", grid="none", frame="none"]
+|===
+| image:http://eurobench2020.eu/wp-content/uploads/2018/06/cropped-logoweb.png[link="http://eurobench2020.eu"] |Supported by Eurobench - the European robotic platform for bipedal locomotion benchmarking.
+More information: link:http://eurobench2020.eu[Eurobench website]
+
+
+
+| image:http://eurobench2020.eu/wp-content/uploads/2018/02/euflag.png[Euro flag] | This project has received funding from the European Union’s Horizon 2020
+research and innovation programme under grant agreement no. 779963.
+The opinions and arguments expressed reflect only the author‘s view and
+reflect in no way the European Commission‘s opinions.
+The European Commission is not responsible for any use that may be made
+of the information it contains.
+|===
