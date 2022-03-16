@@ -1,21 +1,40 @@
-= Performance Indicator calculation for periodic walking motions
+= Generation of PI and Plots for REEM-C StS-transitions
 
 image::https://img.shields.io/badge/License-BSD%202--Clause-blue.svg[link=https://opensource.org/licenses/BSD-2-Clause]
-Copyright Felix Aller 2022
 
 == Purpose
-Script to generate the data and plots for the STS-Transition Benchmark performed on REEM-C.
+Script to generate the aggregated PI and plots from experimental data for the StS-transition benchmark performed on the humanoid robot REEM-C.
 Tested on Python 3.8.
 
 Folder structure refers to the following experiments:
-'415_104': 'P1: 100%'
-'436_104': 'P1: 105%'
-'457_104': 'P1: 110%'
-'477_104': 'P1: 115%'
-'498_104': 'P2: 25%'
-'498_125': 'P2: 30%'
-'498_145': 'P2: 35%'
-'498_166': 'P2: 40%'
+[cols="1,1"]
+|===
+|Folder | Protocol and Trial
+
+|415_104
+|P1: 100%
+
+|436_104
+|P1: 105%
+
+|457_104
+|P1: 110%
+
+|477_104
+|P1: 115%
+
+|498_104
+|P2: 25%
+
+|498_125
+|P2: 30%
+
+|498_145
+|P2: 35%
+
+|498_166
+|P2: 40%
+|===
 
 == Acknowledgements
 [cols="^.^,.^", grid="none", frame="none"]
